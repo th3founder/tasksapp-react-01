@@ -1,0 +1,14 @@
+.searchTaskContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.searchTaskContainer input{
+    width: 60%;
+    padding: .8rem 0.5rem;
+    border: none;
+    background-color: #efefef;
+    border-radius: 8px;
+
+}

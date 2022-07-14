@@ -1,0 +1,70 @@
+li{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 1rem;
+    border: none;
+    background-color: #efefef;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+li:hover{
+    background: lightcyan;
+    transition: .5s;
+
+}
+
+li div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.willCompleteIcon{
+    background-color: #ffffff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border-style: solid;
+    border-left-color: #39c8e7;
+    border-right-color: #39c8e7;
+    border-bottom-color:linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    border-top-color:   linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); 
+    text-align: center;
+    align-content: center;
+}
+.completedIcon:hover{
+    cursor: pointer;
+}
+
+li p{
+    margin: .8rem 0;
+}
+
+.delete{
+    
+}
+
+.delete:hover{
+    display: block;
+    color: red;
+    cursor: pointer;
+    
+}
+
+.completedTarget, .completedTarget:hover{
+/*     background: #000000;  /
+background: -webkit-linear-gradient(to right, #434343, #000000);  
+background: linear-gradient(to right, #434343, #000000); 
+ */
+
+}
+
+.CompletedIcon{   
+
+}
+
+.CompletedText{
+    text-decoration:line-through;
+}
+

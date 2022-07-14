@@ -1,0 +1,22 @@
+.searchContainer{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+label{
+    color: #6b5575;
+}
+
+.ToDoSeachInput{
+    flex-grow: 1;
+    padding: .8rem 0.5rem;
+    border: none;
+    background-color: #efefef;
+    border-radius: 8px;
+    
+}
+
+input::placeholder{
+    color: rgb(159, 159, 159);
+}
